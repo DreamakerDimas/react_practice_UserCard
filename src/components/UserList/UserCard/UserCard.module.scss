@@ -21,15 +21,12 @@
 }
 
 .card-avatar {
+  width: 100px;
+  height: 100px;
   box-sizing: border-box;
   border: 5px white solid;
   border-radius: 50%;
   overflow: hidden;
-}
-
-.card-avatar > img {
-  width: 100%;
-  height: 100%;
   object-fit: cover;
 }
 

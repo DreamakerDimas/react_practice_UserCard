@@ -3,6 +3,9 @@
   justify-content: stretch;
   align-items: center;
 
+  border-radius: 15px;
+
+  min-width: 320px;
   min-height: 600px;
 }
 
@@ -41,7 +44,9 @@
 }
 
 .user-work {
+  color: grey;
 }
 
 .user-description {
+  font-weight: 200;
 }

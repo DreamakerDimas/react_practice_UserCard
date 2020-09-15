@@ -32,15 +32,15 @@ function SignUpForm(props) {
       onSubmit={onSubmit}
       validationSchema={SIGNUP_SCHEMA}
     >
-      {(formProps) => (
+      {() => (
         <Form className={styles.formContainer}>
           {fields.map((field, index) => (
-            <Field key={index} name={field.name} {...field}>
+            <Field key={index} name={field.name}>
               {(fieldProps) => <Input {...field} {...fieldProps} />}
             </Field>
           ))}
           <button type="submit" className={styles.submitBut}>
-            SignUp
+            Sign Up
           </button>
         </Form>
       )}

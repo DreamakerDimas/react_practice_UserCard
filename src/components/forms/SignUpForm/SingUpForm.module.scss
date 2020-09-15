@@ -1,0 +1,27 @@
+.formContainer {
+  margin: 10px; /*temporary*/
+
+  min-width: 300px;
+  max-width: 720px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 2px solid darkcyan;
+  border-radius: 10px;
+  padding: 10px 5px;
+  background-color: azure;
+  box-shadow: 4px 4px 18px -1px rgba(0, 0, 0, 0.4);
+}
+
+.submitBut {
+  margin: 10px auto;
+  border: 2px solid darkcyan;
+  border-radius: 5px;
+  background-color: rgb(30, 136, 223);
+  color: floralwhite;
+  padding: 5px;
+  font-size: 20px;
+}

@@ -6,12 +6,22 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "classnames": "^2.2.6",
+    "express": "^4.17.1",
+    "formik": "^2.1.5",
     "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4",
+    "pg": "^8.3.3",
+    "pg-hstore": "^2.3.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0",
+    "yup": "^0.29.3"
   },
   "scripts": {
+    "back": "nodemon ./src/Back.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

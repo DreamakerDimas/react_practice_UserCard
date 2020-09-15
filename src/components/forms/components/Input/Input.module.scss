@@ -1,0 +1,38 @@
+.label {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  width: 90%;
+}
+
+.field {
+  background-color: rgba(74, 171, 255, 0.2);
+  border-radius: 5px;
+  border: 1px solid gray;
+  color: black;
+  font-size: 16px;
+  min-height: 30px;
+  text-align: center;
+}
+
+.fieldError {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+.fieldValid {
+  background-color: rgba(0, 255, 0, 0.2);
+}
+
+.error {
+  flex-grow: 1;
+  position: static;
+  padding: 5px;
+  margin-left: 15px;
+  font-size: 15px;
+  font-weight: 300;
+  color: white;
+  background-color: rgba(158, 0, 0, 0.61);
+  border-radius: 5px;
+}

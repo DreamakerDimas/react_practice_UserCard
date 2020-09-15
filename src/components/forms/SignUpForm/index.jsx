@@ -48,4 +48,8 @@ function SignUpForm(props) {
   );
 }
 
+SignUpForm.propTypes = {
+  onSubmit: PropTypes.func.isRequired,
+};
+
 export default SignUpForm;

@@ -1,6 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
 import styles from './Input.module.scss';
+import PropTypes from 'prop-types';
 
 function Input(props) {
   const {
@@ -27,5 +28,9 @@ function Input(props) {
     </label>
   );
 }
+
+Input.propTypes = {
+  field: PropTypes.object.isRequired,
+};
 
 export default Input;
